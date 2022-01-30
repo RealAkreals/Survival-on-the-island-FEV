@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survival on the island FEV(Russion)</title>
+	<link  rel = "shortcut icon"  href = "/favicon.ico"  type = "image / x-icon" > 
+	<link  rel = "icon"  href = "https://cdn.discordapp.com/attachments/873648294197338112/935101108043513856/0438b56054bba113.png"  type = "image / x-icon" >
+	<style type="text/css">
+		body {
+    font-family: 'Lato', sans-serif;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+#download {
+
+background-color: #3ACB2D;
+
+border: none;
+
+color: white;
+
+padding: 12px 30px !important;
+
+font-size: 16px !important;
+
+cursor: pointer;
+
+}
+
+#download:hover {
+
+background-color: #36D727 !important; /*#ff4b4b*/
+
+}
+
+#download:active, #download:focus {
+
+outline-color: #d90202;
+
+}
+
+#download::-moz-focus-inner {
+
+outline-color: #d90202;
+
+}
+
+.danni {
+    color: blue;
+}
+	</style>
+</head>
+<body>
+	<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <div class="overlay-content">
+    <a href="регестрация.html">Регестрация</a>
+    <a href="index.html">Download</a>
+    <a href="оразроботчиках.html">О разроботчиках</a>
+    <a href="кто разробатовыл игру.html">Кто разробатовал игру</a>
+  </div>
+</div>
+	<span style="font-size:30px;cursor:pointer" onclick="openNav()">☰ open</span>
+	<center>
+	<h2>Разроботчики:</h2>
+	<h2>ГЛ Программист - Даниил</h2>
+	<h2>Дизайнер - Снежок(Имя зашифрованно)</h2>
+	<h2>Game Дизайнер - Валентин</h2>
+	<h2>Текстурщик - Снежок(Имя зашифрованно)</h2>
+	<h2>Второй программист - Александр</h2>
+	<h2>Звукач - Даниил</h2>
+	<h2>Автор бюджета - Снежок(Имя зашифрованно)</h2>
+	</center>
+	
+
+<script>
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
+</script>
+</body>
+</html>
